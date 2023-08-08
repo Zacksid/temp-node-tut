@@ -1,0 +1,32 @@
+console.log ('') is use for print
+console.log(__dirname) is use for print path 
+setInterval is used to set intervale
+module.exports={} used to export object and fuction
+const name =require('./filename') used to import the exported file
+
+
+(const{readfile, writefile}=require('fs')
+This line of code is importing the readFile and writeFile functions from the Node.
+js built-in fs module. In Node.js,
+the fs module provides an interface to interact with the file system,
+allowing you to read from and write to files.) to get data from file
+
+const { Console } = require('console')
+This line of code is importing the Console class from the Node.js built-in console module.
+ In Node.js, the console module provides a simple debugging console 
+that is similar to the console mechanism provided by web browsers.
+
+Commands for npm
+//npm - globle command , comes with node
+//npm --version
+
+//local dependancy - use it only in this particular project
+//npm i <packageName>
+
+//global dependancy - use it in any project
+//npm install -g <packageName>
+// sudo install -g <packageName> (mac)
+
+
+
+ 
